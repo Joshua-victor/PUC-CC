@@ -1,0 +1,41 @@
+SELECT actors.first_name, actors.last_name
+FROM actors
+JOIN directors
+ON actors.first_name = directors.first_name
+AND actors.last_name = directors.last_name
+
+ 
+
+SELECT actors.first_name, actors.last_name
+FROM actors 
+LEFT JOIN directors 
+ON actors.first_name = directors.first_name
+AND actors.last_name = directors.last_name
+WHERE directors.id IS NULL
+
+ 
+
+SELECT first_name, last_name
+FROM actors
+
+UNION
+
+SELECT first_name, last_name
+FROM directors
+
+ 
+
+SELECT movies.name
+FROM movies 
+LEFT JOIN movies_directors 
+ON movies.id = movies_directors.movie_id
+WHERE movies_directors.director_id IS NULL
+
+ 
+
+SELECT actors.first_name, actors.last_name
+FROM actors 
+JOIN movies_actors 
+ON actors.id = movies_actors.actor_id
+GROUP BY actors.id, actors.first_name, aactors.last_name
+HAVING COUNT(movies_actors.movie_id) < 2

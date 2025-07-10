@@ -1,0 +1,34 @@
+Funcionários supervisionados que não são clientes
+
+SELECT DISTINCT A.CPF, A.Nome
+FROM Funcionarios A
+LEFT JOIN Clientes C ON A.CPF = C.CPF
+WHERE A.CPF IN (
+    SELECT CPF_Supervisor 
+    FROM Funcionarios
+) AND C.CPF IS NULL;
+
+
+Filmes com tipo DVD ou VHS
+
+SELECT A.CodFilme, B.Nome
+FROM Midias A
+JOIN Filmes B ON A.CodFilme = B.Codigo
+WHERE A.Tipo IN ('DVD', 'VHS');
+
+
+Clientes que alugaram e pagaram pela mídia
+
+
+SELECT A.CPF, A.Cliente, A.ID_Midia, A.DataLocacao
+FROM Aluguel A
+JOIN Clientes B ON A.CPF_Cliente = B.CPF
+WHERE B.Sexo = 'F'
+  AND EXISTS (
+      SELECT 1
+      FROM Pagamentos C
+      WHERE C.CPF_Cliente = A.CPF_Cliente
+        AND C.ID_Midia = A.ID_Midia
+        AND C.DataLocacao = A.DataLocacao
+  );
+

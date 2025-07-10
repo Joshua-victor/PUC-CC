@@ -1,0 +1,78 @@
+blocos = 2kb
+
+Atores 
+10.000  nmrº registros N
+176    registros R
+
+
+fator bloco = 2048/176 = 11   (F = T / R )
+
+blocos necessarios = 10.000/11 = 909,09   (B = N / F)
+
+espaço não usado = 2048 - (11 * 176) = 112  ( U = T - (F * R )
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Clietes
+100.000  nmrº registros N
+171    registros R
+
+
+fator bloco = 2048/171 = 11
+blocos necessarios  = 100000/11 = 9091 Blocos
+espaço não usado = 2048 - 11 * 171 = 167
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Filmes
+2.000.000  nmrº registros N
+256    registros R
+
+
+fator bloco = 2048/256 = 8
+blocos necessarios  = 2.000.000/8 = 250.000 Blocos
+espaço não usado = 2048 - 8 * 256 = 0
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Funcionarios
+3.500  nmrº registros N
+171   registros R
+
+
+fator bloco = 2048/171 = 11
+blocos necessarios  = 3500/11 = 318  Blocos
+espaço não usado = 2048 - 11 * 171 = 167
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Midias
+10000000  nmrº registros N
+56   registros R
+
+
+fator bloco = 2048/56 = 36
+blocos necessarios  = 10000000/36 = 277.777  Blocos
+espaço não usado = 2048 - 36 * 56 = 32
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Aluguel
+20000000  nmrº registros N
+46   registros R
+
+
+fator bloco = 2048/46 = 44
+blocos necessarios  = 20000000/44 = 454.546  Blocos
+espaço não usado = 2048 - 44 * 46 = 24
+
+--------------------------------------------------------------------------
+blocos = 2kb
+Pagtamentos
+50000000  nmrº registros N
+84  registros R
+
+
+fator bloco = 2048/84 = 24
+blocos necessarios  = 500000000/24 = 2084  Blocos
+espaço não usado = 2048 - 84 * 24 = 32

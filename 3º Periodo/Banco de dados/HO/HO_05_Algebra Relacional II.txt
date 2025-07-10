@@ -1,0 +1,16 @@
+π first_name, last_name (actors) ∩ π first_name, last_name (directors)
+-----------------------------------------------------------------------------------------
+π first_name, last_name (actors) - π first_name, last_name (directors)
+-----------------------------------------------------------------------------------------
+π first_name, last_name (actors) ∪ π first_name, last_name (directors)
+-----------------------------------------------------------------------------------------
+A =π name (movies) - π name (movies ⨝movies_directors)
+π name (A)
+-----------------------------------------------------------------------------------------
+A = γ first_name,last_name; count(role) -> papeis σ id = actor_id  (roles ⨝ actors)
+π first_name , last_name, papeis σ papeis < 2 (A)
+-----------------------------------------------------------------------------------------
+A = π movie_id, n σ n<2 γ movie_id; count(actor_id) -> n roles
+B = π name, year, genre σ id=movie_id (movies⨝A⨝movies_genres)
+C = γ genre, year ; count(genre) -> n B
+π genre, year, average γ genre,year; avg(n) -> average C

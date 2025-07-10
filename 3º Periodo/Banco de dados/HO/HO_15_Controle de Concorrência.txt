@@ -1,0 +1,18 @@
+Considerando a técnica de controle de concorrência por bloqueio exclusivo (binário) com protocolo 2PL estrito e confirmação (commit) implícita (commit da transação ocorre logo após a última operação da transação no escalonamento), o escalonamento Sa possui deadlock? Entre quais transações? Qual o escalonamento que efetivamente será executado, considerando a técnica de resolução de deadlock que identifique o deadlock e mate a transação mais recente (aquela em que sua primeira operação se inicie depois da primeira operação das outras).
+ 
+
+Sa possui deadlock, entre as transações T1 e T3​.
+
+ 
+
+Considerando a técnica de controle de concorrência por bloqueio compartilhado (ternário) com protocolo 2PL estrito e confirmação (commit) implícita (commit da transação ocorre logo após a última operação da transação no escalonamento), o escalonamento Sa possui deadlock? Entre quais transações? Qual o escalonamento que efetivamente será executado, considerando a técnica de resolução de deadlock que identifique o deadlock e mate a transação mais recente (aquela em que sua primeira operação se inicie depois da primeira operação das outras)?
+ 
+
+Sa​ possui deadlock, entre T1 e T3​, e entre T2​ e T3.​
+
+ 
+
+Considerando a técnica de controle de concorrência por ordenação de registros de timestamp, qual o escalonamento que efetivamente será executado?
+ 
+
+O escalonamento final dependerá do reinício das transações T3T_3T3​ e T2T_2T2​, permitindo que T1T_1T1​ e T2T_2T2​ executem primeiro.

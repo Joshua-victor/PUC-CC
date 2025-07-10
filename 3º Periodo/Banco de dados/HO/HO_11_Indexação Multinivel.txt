@@ -1,0 +1,70 @@
+Clientes (CPF): Índice multinível estático na chave primária CPF.
+Filmes (Código): Índice multinível estático na chave primária Código.
+Funcionários (CPF): Índice multinível estático na chave primária CPF.
+Midias (Identificador): Índice multinível estático na chave primária Identificador.
+Atores (Código): Índice multinível estático na chave primária Código.
+Aluguel (CPF_Cliente, ID_Midia): Índice multinível estático na chave composta CPF_Cliente e ID_Midia.
+Pagamentos (Código): Índice multinível estático na chave primária Código.
+
+Atores (10.000 registros)
+
+Tamanho de cada registro: Código (16B) + Nome (160B) = 176B
+
+Fator de Bloco: 16.384 / 176 =  93   registros por bloco
+
+56 Blocos
+
+
+Clientes (100.000 registros)
+
+Tamanho de cada registro: CPF (11B) + Nome (160B) + Endereco (200B) + Telefone (16B) + DataNascimento (12B) + Sexo (1B) = 400B
+
+Fator de Bloco: 16.384 / 400 =  40   registros por bloco
+
+2500 Blocos
+
+
+Filmes (2.000.000 registros)
+
+Tamanho de cada registro: Codigo (16B) + Nome (160B) + Genero (80B) = 256B
+
+Fator de Bloco: 16.384 / 256 =  64   registros por bloco
+
+31.250 blocos
+
+
+Funcionários (3.500 registros)
+
+Tamanho de cada registro: CPF (11B) + Nome (160B) = 171B
+
+Fator de Bloco: 16.384 / 171 =  95   registros por bloco
+
+36 Blocos
+
+
+Midias (10.000.000 registros) 
+
+Tamanho de cada registro: Identificador (24B) + Tipo (8B) + PrecoDiaria (24B) = 56B
+
+Fator de Bloco: 16.384 / 56 =  292   registros por bloco
+
+34.246 Blocos
+
+
+Aluguel (20.000.000 registros)
+
+Tamanho de cada registro: DataLocacao (12B) + DataDevolucao (10B) + ValorPagar (24B) = 46B
+
+Fator de Bloco: 16.384 / 46 =  356  registros por bloco
+
+56.179 Blocos
+
+
+Pagamentos (50.000.000 registros)
+
+Tamanho de cada registro: Codigo (48B) + Data (12B) + Valor (24B) = 84B
+
+Fator de Bloco: 16.384 / 84 =  195 registros por bloco
+
+256.410 Blocos
+

@@ -1,0 +1,45 @@
+
+SELECT first_name, last_name
+FROM actors
+where gender = 'F'
+
+--------------------------------------------------------------------------------------------
+SELECT name
+FROM movies
+where year > 1999
+--------------------------------------------------------------------------------------------
+SELECT 
+    movies.name AS movie_name,
+    CONCAT(directors.first_name, ' ', directors.last_name) AS director_name
+FROM 
+    movies
+JOIN 
+    directors ON movies.id = directors.id;
+
+--------------------------------------------------------------------------------------------
+
+SELECT directors.first_name, directors.last_name, COUNT(movies_directors.movie_id) AS num_filmes
+FROM directors
+JOIN movies_directors ON directors.id = movies_directors.director_id
+GROUP BY directors.id, directors.first_name, directors.last_name
+ORDER BY num_filmes DESC
+
+--------------------------------------------------------------------------------------------
+
+SELECT movies_genres.genre, COUNT(movies_genres.movie_id) AS num_filmes
+FROM movies_genres
+GROUP BY movies_genres.genre
+ORDER BY num_filmes DESC
+
+--------------------------------------------------------------------------------------------
+
+SELECT movies_genres.genre, 
+       AVG(movies.rank) AS ranking_medio, 
+       MIN(movies.rank) AS ranking_minimo, 
+       MAX(movies.rank) AS ranking_maximo
+FROM movies_genres
+JOIN movies ON movies_genres.movie_id = movies.id
+GROUP BY movies_genres.genre
+ORDER BY ranking_medio DESC
+--------------------------------------------------------------------------------------------
+

@@ -1,0 +1,49 @@
+1-Atores
+Chave Primária: Código (16B).
+Entradas por bloco: 64.
+Número de blocos: 157 blocos.
+Espaço total gasto: 323584B
+
+2. Clientes
+Chave Primária: CPF (11B).
+Entradas por bloco: 75.
+Número de blocos: 1334 blocos.
+Espaço total gasto:2732032
+
+3. Filmes
+Chave Primária: Código (16B).
+Entradas por bloco: 64.
+Número de blocos: 31250 blocos.
+Espaço total gasto:64000000
+
+4. Funcionarios
+Chave Primária: CPF (11B).
+Entradas por bloco: 75.
+Número de blocos: 47 blocos.
+Espaço total gasto:96256
+
+5. Mídias
+Chave Primária: Identificador (24B).
+Entradas por bloco: 51.
+Número de blocos: 196079 blocos.
+Espaço total gasto:401028672
+
+
+6. Aluguel
+Chave Primária: DataLocacao (12B).
+Entradas por bloco: 73.
+Número de blocos: 273973 blocos.
+Espaço total gasto:560465024
+
+
+7. Pagamentos
+Chave Primária: Código (48B).
+Entradas por bloco: 32.
+Número de blocos: 1562500 blocos.
+Espaço total gasto:3200000000
+
+8. AtoresEmFilmes
+Chave Primária: CodFilme (16B) e CodAtor (16B).
+Entradas por bloco: 42.
+Número de blocos: 23810 blocos.
+Espaço total gasto: 48762880

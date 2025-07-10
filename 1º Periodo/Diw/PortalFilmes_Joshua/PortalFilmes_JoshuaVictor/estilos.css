@@ -1,0 +1,255 @@
+/* pagina inteira */
+
+html {
+    height: 100%
+}
+/* end pagina inteira */
+
+/* menu */
+
+.header a { /* hiperlinks menu */
+    color: black; 
+    margin-top: 15px;
+    text-align: center;
+    font-size: 0.4cm;
+}
+
+#separador-menu { /* separador hiperlinks */
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+    font-size:larger;
+}
+
+.logo { /* logo */
+    max-width: 150px;
+}
+
+.fa .fa-search { /* barra de pesquisa */
+    background-color: rgb(170, 170, 170);
+}
+
+.header { /* menu configuracoes gerais */
+    background-color: rgb(170, 170, 170);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+#divBusca { /* barra de pesquisa */
+    background-color:rgb(170, 170, 170);
+    border: solid 1px;
+    border-radius: 15px;
+    width: 200px;
+    margin-left: 2cm;
+    float: right;
+}
+
+#lupa { /* barra de pesquisa - lupa */
+    color: rgb(68, 67, 67);
+    align-items: center;
+    float: left;
+    padding: left 30px !important;
+    padding: 5px;
+}
+
+#txtBusca { /* barra de pesquisa - texto */
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:15px;
+    color: rgb(68, 67, 67);
+    border:none;
+    width:150px;
+}
+
+/*search bar*/
+.searchbar {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    height: 45px;
+    background-color: #2525259c;
+    border-radius: 30px;
+    padding: 3px;
+    align-content: right !important;
+    margin-left: 30px;
+  }
+  .search_input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color: transparent;
+    line-height: 20px;
+    transition: width 0.2s linear;
+  }
+  .searchbar:hover > .search_input {
+    padding: 0 20px;
+    width: 150px;
+    height: 35px;
+    caret-color: rgb(255, 255, 255);
+    transition: width 0.4s linear;
+  }
+  .searchbar:hover > .search_icon {
+    background: white;
+    color: #000000;
+  }
+  .search_icon {
+    height: 40px;
+    width: 40px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+  }
+  
+
+.menu-1 { /* menu configuracoes gerais */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#menuToggle { /* menu mobile */
+    display: none;
+}
+
+.menu-icon { /* menu mobile */
+    display: none;
+}
+
+@media screen and (max-width:600px) { /* menu mobile */
+
+    .header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+    }
+
+    .header
+
+    #menuToggle {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+}
+/* end menu */
+
+
+/* area principal */
+
+h1 {
+    color:rgb(0, 0, 59);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.9cm;
+}
+
+/* lancamentos */
+
+.lancamentos {
+    background-color: rgb(231, 231, 231);
+}
+
+
+.lancamentos_video {
+    width: 100%;
+    text-align: center;
+}
+
+.lancamentos-titulo {
+    text-align: center;
+}
+
+.lancamentos-nome-filme {
+    font-size: 0.8cm;
+}
+
+#sinopse {
+    line-height: 0.5cm;
+}
+
+/* em destaque */
+
+.em-destaque img{
+    width: 100%;
+}
+
+.em-destaque > div {
+    margin-bottom: 20px;
+}
+
+
+/* ultimas avaliacoes */
+
+.ultimas-avaliacoes-nome-avaliador {
+    font-size: 0.6cm;
+}
+
+/* entrevistas & making of */
+
+.entrevistas-e-making-of {
+    width: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
+#entrevistas-e-making-of-nome-filme {
+    font-size: 0.6cm;
+}
+
+/* novidades */
+.informacoes-titulo-materia img {
+    width: 100%;
+}
+
+.novidades-foto {
+    width: 100%;
+}
+
+/* rodape */
+
+footer {
+    background-color: #ddd;
+    padding: 30px;
+}
+
+#rodape {
+    padding: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    
+}
+
+/* detalhes */
+
+.card-img-top {
+    float: left;
+}
+
+.card-detalhe {
+    margin-left: 12cm;
+}
+
+.titulo-destaque {
+    text-align: center !important;
+}
+
+.sizeimg
+{
+
+height: 170px;
+width: 220px;
+
+
+
+}

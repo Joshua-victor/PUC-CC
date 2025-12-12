@@ -1,0 +1,43 @@
+cff-version: 1.0.1
+message: Please cite this software using these metadata.
+title: SmartStudy
+authors:
+  - family-names: Pereira
+    given-names: Caio César
+  - family-names: Lanza Candido
+    given-names: Gabriel Filipe
+  - family-names: Lopes de Paula
+    given-names: Paulo Henrique
+  - family-names: Pereira de Alexandria
+    given-names: Pedro Henrique
+  - family-names: Tinoco Lanna
+    given-names: Pedro
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Neri Nobre
+    given-names: Cristiane
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Neves Rodrigues
+    given-names: Cristiano
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Saldanha Rivero
+    given-names: Ilo Amy
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ramos Costa
+    given-names: Pedro Henrique
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Ribeiro da Mota
+    given-names: Rosilane
+keywords:
+  - Educação
+  - Organização
+  - Inteligência Artificial
+  - RAG
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-ti4-2025-2-g07-smartstudy
+license: CC-BY-4.0
+version: 1.0.0
+date-released: 2025-02-28

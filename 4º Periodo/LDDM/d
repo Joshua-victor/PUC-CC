@@ -1,0 +1,9 @@
+ backend_python/__pycache__/main.cpython-312.pyc    | Bin [31m6278[m -> [32m12632[m bytes
+ codigo/lib/pages/3_home/home_screen.dart           |   8 [32m+[m[31m-[m
+ codigo/lib/pages/7_pomodoro/pomodoro_screen.dart   | 305 [32m+++[m[31m----[m
+ codigo/lib/pages/8_todo_list/todo_list_screen.dart | 897 [32m+++++++++++++[m[31m--------[m
+ .../macos/Flutter/GeneratedPluginRegistrant.swift  |   2 [32m+[m
+ codigo/pubspec.lock                                |  56 [32m++[m
+ codigo/pubspec.yaml                                |   1 [32m+[m
+ codigo/windows/flutter/generated_plugins.cmake     |   1 [32m+[m
+ 8 files changed, 749 insertions(+), 521 deletions(-)

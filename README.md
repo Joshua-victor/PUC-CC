@@ -20,15 +20,15 @@ Repositório destinado ao armazenamento de materiais, códigos, anotações e pr
 | 2   | Engenharia de Software I                           | Algoritmos e Estruturas de Dados II (CO)           | ES1    | ✔     |
 | 2   | Optativa I                                         | ---                                                | O1     | ✔     |
 | 2   | Trab. Interdisciplinar II: Back-end                | Algoritmos e Estruturas de Dados II (CO), ES1 (CO) | TI2    | ✔     |
-| 3   | Algoritmos e Estruturas de Dados III               | Algoritmos e Estruturas de Dados II, TI2           | AEDs3  | 📍     |
+| 3   | Algoritmos e Estruturas de Dados III               | Algoritmos e Estruturas de Dados II, TI2           | AEDs3  | ✔     |
 | 3   | Arquitetura de Computadores II                     | Arquitetura de Computadores I                      | AC2    | ✔     |
 | 3   | Banco de Dados                                     | Algoritmos e Estruturas de Dados II, TI2           | BD     | ✔     |
 | 3   | Cálculo II                                         | Cálculo I                                          | C2     | ❌    |
-| 3   | Linguagens de Programação                          | Algoritmos e Estruturas de Dados II                | LP     | 📍     |
+| 3   | Linguagens de Programação                          | Algoritmos e Estruturas de Dados II                | LP     | ✔     |
 | 3   | Trab. Interdisciplinar III: Pesquisa Aplicada      | Algoritmos e Estruturas de Dados II (CO)           | TI3    | ✔     |
 | 4   | Estatística e Probabilidade                        | Cálculo I                                          | EP     | ❌    |
 | 4   | Inteligência Artificial                            | Estatística e Probabilidade (CO), TGC (CO)         | IA     | ❌    |
-| 4   | Lab. de Desenvol. para Dispositivos Móveis         | Algoritmos e Estruturas de Dados II                | LDDM   | 📍     |
+| 4   | Lab. de Desenvol. para Dispositivos Móveis         | Algoritmos e Estruturas de Dados II                | LDDM   | ✔     |
 | 4   | Modelagem e Avaliação de Desempenho                | EP (CO), TGC (CO)                                  | MAD    | ❌    |
 | 4   | Optativa II                                        | ---                                                | O2     | ❌    |
 | 4   | Teoria dos Grafos e Computabilidade                | Algoritmos e Estruturas de Dados II                | TGC    | ❌    |

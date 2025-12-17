@@ -8,7 +8,7 @@ Repositório destinado ao armazenamento de materiais, códigos, anotações e pr
 | Per | Disciplina                                         | Pré-Requisito / Co-requisito                       | ID     | Feito |
 | --- | -------------------------------------------------- | -------------------------------------------------- | ------ | ----- |
 | 1   | Algoritmos e Estruturas de Dados I                 | ---                                                | AEDs1  | ✔     |
-| 1   | Cálculo I                                          | ---                                                | C1     | 📍     |
+| 1   | Cálculo I                                          | ---                                                | C1     | ✔     |
 | 1   | Desenvolvimento de Interfaces Web                  | ---                                                | DIW    | ✔     |
 | 1   | Filosofia: Razão e Modernidade                     | ---                                                | F\:RM  | ✔     |
 | 1   | Introdução à Computação (extensionista)            | ---                                                | IC     | ✔     |
@@ -23,13 +23,13 @@ Repositório destinado ao armazenamento de materiais, códigos, anotações e pr
 | 3   | Algoritmos e Estruturas de Dados III               | Algoritmos e Estruturas de Dados II, TI2           | AEDs3  | ✔     |
 | 3   | Arquitetura de Computadores II                     | Arquitetura de Computadores I                      | AC2    | ✔     |
 | 3   | Banco de Dados                                     | Algoritmos e Estruturas de Dados II, TI2           | BD     | ✔     |
-| 3   | Cálculo II                                         | Cálculo I                                          | C2     | ❌    |
+| 3   | Cálculo II                                         | Cálculo I                                          | C2     | 📍     |
 | 3   | Linguagens de Programação                          | Algoritmos e Estruturas de Dados II                | LP     | ✔     |
 | 3   | Trab. Interdisciplinar III: Pesquisa Aplicada      | Algoritmos e Estruturas de Dados II (CO)           | TI3    | ✔     |
 | 4   | Estatística e Probabilidade                        | Cálculo I                                          | EP     | ❌    |
-| 4   | Inteligência Artificial                            | Estatística e Probabilidade (CO), TGC (CO)         | IA     | ❌    |
+| 4   | Inteligência Artificial                            | Estatística e Probabilidade (CO), TGC (CO)         | IA     | 📍     |
 | 4   | Lab. de Desenvol. para Dispositivos Móveis         | Algoritmos e Estruturas de Dados II                | LDDM   | ✔     |
-| 4   | Modelagem e Avaliação de Desempenho                | EP (CO), TGC (CO)                                  | MAD    | ❌    |
+| 4   | Modelagem e Avaliação de Desempenho                | EP (CO), TGC (CO)                                  | MAD    | 📍     |
 | 4   | Optativa II                                        | ---                                                | O2     | ❌    |
 | 4   | Teoria dos Grafos e Computabilidade                | Algoritmos e Estruturas de Dados II                | TGC    | ❌    |
 | 4   | Trab. Interdisciplinar IV: Aplicações Móveis       | IA (CO), LDDM (CO)                                 | TI4    | ❌    |
